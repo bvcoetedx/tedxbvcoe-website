@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
 
         <div className='content'>
-          <div className='child date-container'>
+          {/* <div className='child date-container'>
             <FontAwesomeIcon icon={faCalendarAlt} className='icon' />
             <h2 className='date'>
               23<sup>rd</sup> <span className='ampersand'>&</span> 24
@@ -55,9 +55,13 @@ const Hero = () => {
 
           <div className='child venue-container'>
             <FontAwesomeIcon icon={faMapMarkerAlt} className='icon' />
-            {/* <h2 className='venue'>Venue</h2> */}
+            <h2 className='venue'>Venue</h2>
             <h2 className='venue'>Online</h2>
-          </div>
+          </div> */}
+          <center style={{marginTop: "-30px"}}>
+            <h1 style={{fontSize: 60}}><strong style={{color: 'red'}}>TED</strong>xBVCOE 2022</h1>
+            <h2 style={{marginTop: "-40px"}}>To Be Announced...</h2>
+          </center>
         </div>
       </Fade>
     </section>

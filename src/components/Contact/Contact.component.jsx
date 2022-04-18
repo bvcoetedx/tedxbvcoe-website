@@ -27,12 +27,12 @@ const Contact = () => {
 
               <Fade bottom delay={400}>
                 <p className='text text-2'>
-                  <span>Akshat Jain</span>
+                  <span>Akshat Sharma</span>
                   <br />
                   <span className='position'>Organizer</span>
                   <br />
                   <span>
-                    <a href='tel:+918470034433'>+91-8470034433</a>
+                    <a href='tel:+917011798420'>+91-7011798420</a>
                   </span>
                 </p>
 
@@ -41,12 +41,12 @@ const Contact = () => {
                 </Fade>
 
                 <p className='text text-2'>
-                  <span>Chaitanya Chhabra</span>
+                  <span>Shourya Veer Dua</span>
                   <br />
                   <span className='position'>Co Organizer</span>
                   <br />
                   <span>
-                    <a href='tel:+919910068761'>+91-9910068761</a>
+                    <a href='tel:+919811046036'>+91-9811046036</a>
                   </span>
                 </p>
 
@@ -55,12 +55,12 @@ const Contact = () => {
                 </Fade>
 
                 <p className='text text-2'>
-                  <span>Sarthak Sethi</span>
+                  <span>Chehak Joneja</span>
                   <br />
                   <span className='position'>Curator</span>
                   <br />
                   <span>
-                    <a href='tel:+919968571394'>+91-9968571394</a>
+                    <a href='tel:+919810058273'>+91-9810058273</a>
                   </span>
                 </p>
               </Fade>
