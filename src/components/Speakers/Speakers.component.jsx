@@ -50,6 +50,7 @@ const Speakers = () => {
           <div className='collage-container'>
             <img src={speakersCollage} alt='speakers collage' />
           </div>
+          {/* <h1 style={{fontSize: '6vw', textAlign: 'center'}}><span style={{color: '#ff4929'}}>Displayed</span> Soon <span className="dot dot1">.</span> <span className="dot dot2">.</span> <span className="dot dot3">.</span></h1> */}
         </Fade>
 
         <Fade bottom delay={350}>

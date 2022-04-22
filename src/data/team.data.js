@@ -11,24 +11,24 @@ export const TeamData = {
     {
       key: '2',
       name: 'Shourya Veer Dua',
-      linkedInURL: '',
-      instagramURL: '',
+      linkedInURL: 'https://www.linkedin.com/in/shourya-dua',
+      instagramURL: 'https://www.instagram.com/shourya_veer_dua/',
       twitterURL: '',
       displayPicSrc: require('../assets/team/shourya.jpg').default
     },
     {
       key: '3',
       name: 'Chehak Joneja',
-      linkedInURL: '',
-      instagramURL: '',
+      linkedInURL: 'https://www.linkedin.com/in/chehak-joneja',
+      instagramURL: 'https://instagram.com/ceee__jayyy',
       twitterURL: '',
       displayPicSrc: require('../assets/team/chehak.jpg').default
     },
     {
       key: '4',
       name: 'Anushka Gagwari',
-      linkedInURL: '',
-      instagramURL: '',
+      linkedInURL: 'https://www.linkedin.com/in/anushkagagwari',
+      instagramURL: 'https://instagram.com/anushka.gagwari',
       twitterURL: '',
       displayPicSrc: require('../assets/team/anushka.jpg').default
     },
@@ -43,23 +43,23 @@ export const TeamData = {
     {
       key: '6',
       name: 'Laksh Gambhir',
-      linkedInURL: '',
-      instagramURL: '',
+      linkedInURL: 'https://www.linkedin.com/in/lakshgambhir/',
+      instagramURL: 'https://www.instagram.com/lakshgambhr/',
       twitterURL: '',
       displayPicSrc: require('../assets/team/laksh.png').default
     },
     {
       key: '7',
       name: 'Harshit Bharadwaj',
-      linkedInURL: '',
-      instagramURL: '',
+      linkedInURL: 'https://www.linkedin.com/in/harshit-b-a35477137/',
+      instagramURL: 'https://www.instagram.com/harshitbhardwaj5802',
       twitterURL: '',
       displayPicSrc: require('../assets/team/harshit.jpg').default
     },
     {
       key: '8',
       name: 'Mehak Chada',
-      linkedInURL: '',
+      linkedInURL: 'https://www.linkedin.com/in/mehak-chadha-b9ab3820a',
       instagramURL: '',
       twitterURL: '',
       displayPicSrc: require('../assets/team/mehak.JPG').default
@@ -78,8 +78,8 @@ export const TeamData = {
       key: '10',
       name: 'Vaibhav Sharma',
       position: 'Event & Operations Head',
-      linkedInURL: '',
-      instagramURL: '',
+      linkedInURL: 'https://www.linkedin.com/in/vaibhav-vsharma/',
+      instagramURL: 'https://www.instagram.com/vaibhav_vsharma/',
       twitterURL: '',
       displayPicSrc: require('../assets/team/vaibhav.jpg').default
     },
@@ -87,8 +87,8 @@ export const TeamData = {
       key: '11',
       name: 'Nishant Bhardwaj',
       position: 'Event & Operations Head',
-      linkedInURL: '',
-      instagramURL: '',
+      linkedInURL: 'https://www.linkedin.com/in/nishant-bhardwaj-461592205',
+      instagramURL: 'https://instagram.com/_bhardwajnishant_',
       twitterURL: '',
       displayPicSrc: require('../assets/team/nishant.jpg').default
     },
@@ -96,8 +96,8 @@ export const TeamData = {
       key: '12',
       name: 'Akash Saini',
       position: 'Design Head',
-      linkedInURL: '',
-      instagramURL: '',
+      linkedInURL: 'https://www.linkedin.com/in/akashsaini861',
+      instagramURL: 'https://www.instagram.com/akashtheturnoff/',
       twitterURL: '',
       displayPicSrc: require('../assets/team/akash.jpg').default
     },
@@ -114,8 +114,8 @@ export const TeamData = {
       key: '14',
       name: 'Uday Jain',
       position: 'Sponsorships Head',
-      linkedInURL: '',
-      instagramURL: '',
+      linkedInURL: 'https://www.linkedin.com/in/uday-jain-2853581a6/',
+      instagramURL: 'https://www.instagram.com/udayjainnn/',
       twitterURL: '',
       displayPicSrc: require('../assets/team/uday.png').default
     },
@@ -124,7 +124,7 @@ export const TeamData = {
       name: 'Vasu Bansal',
       position: 'Sponsorships Head',
       linkedInURL: '',
-      instagramURL: '',
+      instagramURL: 'https://www.instagram.com/vasubansal_',
       twitterURL: '',
       displayPicSrc: require('../assets/team/vasu.jpeg').default
     },
@@ -132,8 +132,8 @@ export const TeamData = {
       key: '16',
       name: 'Vipul Kumar',
       position: 'Event Coverage Head',
-      linkedInURL: '',
-      instagramURL: '',
+      linkedInURL: 'https://www.linkedin.com/in/vipul-kumar-38a8621b2',
+      instagramURL: 'https://instagram.com/vipullllll',
       twitterURL: '',
       displayPicSrc: require('../assets/team/vipul.jpeg').default
     },
@@ -141,16 +141,16 @@ export const TeamData = {
       key: '17',
       name: 'Aksh Gambhir',
       position: 'Event Coverage Head',
-      linkedInURL: '',
-      instagramURL: '',
+      linkedInURL: 'https://www.linkedin.com/in/akshgambhir',
+      instagramURL: 'https://instagram.com/akshgambhir',
       twitterURL: '',
       displayPicSrc: require('../assets/team/aksh.jpeg').default
     },{
       key: '18',
       name: 'Gautami Tomar',
       position: 'Publicity Head',
-      linkedInURL: '',
-      instagramURL: '',
+      linkedInURL: 'https://www.linkedin.com/in/gautmi-tomar-5a7a861b1',
+      instagramURL: 'https://instagram.com/gautmi_tomar',
       twitterURL: '',
       displayPicSrc: require('../assets/team/gautami.jpg').default
     },
@@ -158,16 +158,16 @@ export const TeamData = {
       key: '19',
       name: 'Yuvraj Ahuja',
       position: 'Publicity Head',
-      linkedInURL: '',
-      instagramURL: '',
+      linkedInURL: 'https://www.linkedin.com/in/yuvraj-ahuja-a70653196/',
+      instagramURL: 'https://instagram.com/yuvvv._',
       twitterURL: '',
       displayPicSrc: require('../assets/team/yuvraj.jpg').default
     },{
       key: '20',
       name: 'Aditya Kashyap',
       position: 'Documentation Head',
-      linkedInURL: '',
-      instagramURL: '',
+      linkedInURL: 'https://www.linkedin.com/in/aditya-kashyap-b4bb06233',
+      instagramURL: 'https://www.instagram.com/addies.gonna.add/',
       twitterURL: '',
       displayPicSrc: require('../assets/team/aditya.jpeg').default
     },
@@ -175,8 +175,8 @@ export const TeamData = {
       key: '21',
       name: 'Sharen Ganesh',
       position: 'Documentation Head',
-      linkedInURL: '',
-      instagramURL: '',
+      linkedInURL: 'https://www.linkedin.com/in/mc-sharen-ganesh-0ab043a7',
+      instagramURL: 'https://instagram.com/shganesh_',
       twitterURL: '',
       displayPicSrc: require('../assets/team/ganesh.jpg').default
     }

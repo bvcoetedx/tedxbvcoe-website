@@ -34,6 +34,7 @@ const Sponsors = () => {
               </Fade>
             </div>
           ))}
+          {/* <h1 style={{fontSize: '6vw', textAlign: 'center'}}><span style={{color: '#ff4929'}}>Partnering</span> Soon <span className="dot dot1">.</span> <span className="dot dot2">.</span> <span className="dot dot3">.</span></h1> */}
         </div>
       </div>
     </section>

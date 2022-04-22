@@ -59,8 +59,8 @@ const Hero = () => {
             <h2 className='venue'>Online</h2>
           </div> */}
           <center style={{marginTop: "-30px"}}>
-            <h1 style={{fontSize: 60}}><strong style={{color: 'red'}}>TED</strong>xBVCOE 2022</h1>
-            <h2 style={{marginTop: "-40px"}}>To Be Announced...</h2>
+            <h1 style={{fontSize: 60}}><strong style={{color: '#ff4929'}}>TED</strong>xBVCOE 2022</h1>
+            <h2 style={{marginTop: "-40px"}}>To Be Announced <span className="dot dot1">.</span> <span className="dot dot2">.</span> <span className="dot dot3">.</span></h2>
           </center>
         </div>
       </Fade>
