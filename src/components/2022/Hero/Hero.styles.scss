@@ -1,0 +1,302 @@
+.section-hero {
+  height: 760px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-image: url('../../../assets/2022/hero/background.svg');
+  background-size: 100% 100%;
+
+  .logo-container {
+    width: 90%;
+
+    // TODO: use commented value
+    
+    height: 50%;
+    margin-top: 3em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+      height: auto;
+
+      &.logo-desktop {
+        display: block;
+      }
+
+      &.logo-mobile {
+        display: none;
+      }
+    }
+
+    video {
+      // TODO: use commented value
+      height: 95%;
+      margin-top: -30px;
+      height: 100%;
+
+      &.logo-desktop {
+        display: block;
+      }
+
+      &.logo-mobile {
+        display: none;
+      }
+    }
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .child {
+      width: 370px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 40px 0;
+
+      .icon {
+        font-size: 40px;
+        color: #FC3150;
+        margin-bottom: 12px;
+      }
+
+      h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0;
+      }
+
+      &.date-container {
+        .date {
+          margin-top: -2px;
+
+          sup {
+            font-size: 22px;
+          }
+
+          .ampersand {
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+    
+    .contentSubContainer {
+      margin-top: -30px;
+      .heading{
+        font-size: 60px;
+      }
+      .subHeading{
+        margin-top: -40px;
+      }
+    }
+
+    // TODO: unhide later
+    // display: none;
+    .dot1 {
+      animation: visibility 3s linear infinite;
+     }
+     
+     @keyframes visibility {
+      0% {
+      opacity: 1;
+      }
+      65% {
+      opacity: 1;
+      }
+      66% {
+      opacity: 0;
+      }
+      100% {
+      opacity: 0;
+      }
+     }
+     
+     .dot2 {
+      animation: visibility2 3s linear infinite;
+     }
+     
+     @keyframes visibility2 {
+      0% {
+       opacity: 0;
+      }
+      21% {
+       opacity: 0;
+      }
+      22% {
+       opacity: 1;
+      }
+      65% {
+       opacity: 1;
+      }
+      66% {
+       opacity: 0;
+      }
+      100% {
+       opacity: 0;
+      }
+     }
+     
+     .dot3 {
+      animation: visibility3 3s linear infinite;
+     }
+     
+     @keyframes visibility3 {
+      0% {
+       opacity: 0;
+      }
+      43% {
+       opacity: 0;
+      }
+      44% {
+       opacity: 1;
+      }
+      65% {
+       opacity: 1;
+      }
+      66% {
+       opacity: 0;
+      }
+      100% {
+       opacity: 0;
+      }
+     }
+  }
+
+  .hero-icon {
+    margin-top: 40px;
+    font-size: 2.2rem;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 768px) {
+    height: 85vh !important;
+    background-size: auto;
+
+    .content {
+      .child {
+        .icon {
+          font-size: 26px;
+        }
+
+        h2 {
+          font-size: 1.6rem;
+        }
+
+        &.date-container {
+          .date {
+            sup {
+              font-size: 20px;
+            }
+
+            .ampersand {
+              font-size: 1.3rem;
+            }
+          }
+        }
+      }
+    }
+
+    .logo-container {
+      // TODO: use commented value
+      height: 100%;
+      height: 57%;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    height: 90vh !important;
+    justify-content: center;
+
+    .logo-container {
+      width: 90%;
+      height: 60%;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 20px;
+      margin-top: -20px;
+
+      img {
+        &.logo-desktop {
+          display: none;
+        }
+
+        &.logo-mobile {
+          display: block;
+        }
+      }
+
+      video {
+        // TODO: use commented value
+        // height: 97%;
+        // height: 90%;
+        width: 90%;
+
+        &.logo-desktop {
+          display: none;
+        }
+
+        &.logo-mobile {
+          display: block;
+        }
+      }
+    }
+
+    .content {
+      .child {
+        width: 185px;
+        margin: 12px 0;
+
+        .icon {
+          font-size: 22px;
+        }
+
+        h2 {
+          font-size: 1.25rem;
+        }
+
+        &.date-container {
+          .date {
+            sup {
+              font-size: 15px;
+            }
+
+            .ampersand {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+
+    .hero-icon {
+      margin-top: 30px;
+      font-size: 1.8rem;
+    }
+  }
+
+  @media only screen and (max-width: 412px) {
+    .logo-container {
+      height: 50%;
+      margin-top: -40px;
+    }
+    .content {
+      .contentSubContainer {
+        .heading {
+          font-size: 35px;
+        }
+
+        .subHeading {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}

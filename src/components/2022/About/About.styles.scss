@@ -1,0 +1,132 @@
+.section-about {
+  height: auto !important;
+
+  // background-image: url('../../../assets/2022/about-section/background.svg');
+  // background-size: 100% 100%;
+
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+
+    .tabs-container {
+      display: flex;
+      justify-content: center;
+      margin-top: -10px;
+      margin-bottom: 30px;
+
+      button {
+        // width: 85px;
+        width: min-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+        background-color: #3e3e3e;
+        border: none;
+        border: 5px solid #3e3e3e;
+        border-radius: 5px;
+        padding: 10px 10px;
+        margin: 0 5px;
+        cursor: pointer;
+
+        h2 {
+          color: #fff;
+          font-weight: 600;
+          font-size: 1.1rem;
+          text-align: center;
+          margin: 0;
+          cursor: pointer;
+        }
+
+        &.selected {
+          background-color: darken(#FC3150, 5%);
+          border-color: darken(#FC3150, 5%);
+          color: #fff;
+        }
+      }
+    }
+
+    .image-container {
+      width: 30%;
+      max-width: 475px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+
+      img {
+        width: 100%;
+        height: auto;
+        border: 2px solid darken(#FC3150, 20%);
+        border-radius: 2px;
+
+        &.loading {
+          min-width: 310px;
+        }
+      }
+    }
+
+    .info {
+      width: 85%;
+      max-width: 850px;
+
+      p {
+        // text-align: justify;
+        font-size: 1.1rem;
+        line-height: 1.8;
+        margin: 0;
+        margin-bottom: 15px;
+
+        a {
+          color: #f1d1cb;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    height: auto !important;
+
+    .section-content {
+      padding-bottom: 50px;
+
+      .image-container {
+        width: 50%;
+      }
+
+      .info {
+        width: 90%;
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .section-content {
+      padding-bottom: 50px;
+
+      .image-container {
+        width: 70%;
+
+        img {
+          &.loading {
+            min-width: 250px;
+          }
+        }
+      }
+
+      .info {
+        width: 93%;
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

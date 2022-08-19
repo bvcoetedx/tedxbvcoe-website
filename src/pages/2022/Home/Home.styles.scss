@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  .section {
+    height: 760px;
+    color: #000;
+    padding: 0 5%;
+    background-color: white;
+
+    .section-heading {
+      text-align: center;
+      font-size: 2.8rem;
+      color: #FC3150;
+      padding-top: 40px;
+      margin-top: 0;
+    }
+
+    @media only screen and (max-width: 425px) {
+      .section-heading {
+        font-size: 2.4rem;
+      }
+    }
+  }
+}

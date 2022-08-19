@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-contact {
+  height: 700px !important;
+  background-color: #fff;
+  color: #000;
+  padding: 0 5%;
+
+  background-image: url('../../../assets/2022/about-section/background.svg');
+  background-size: contain;
+
+  .section-heading {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #FC3150;
+    padding-top: 40px;
+    margin-top: 0;
+  }
+
+  .section-content {
+    .info-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .info {
+        width: 650px;
+        margin-top: 45px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        h2 {
+          font-size: 1.6rem;
+          font-weight: bold;
+          color: #FC3150;
+        }
+
+        .text {
+          font-size: 1.2rem !important;
+        }
+
+        .text-2 {
+          margin-top: -10px;
+
+          .position {
+            font-size: 1.1rem;
+            font-weight: 300;
+            font-style: italic;
+            // color: #eee;
+          }
+
+          // a {
+          //  color: #fff;
+          // }
+        }
+
+        .underline {
+          font-weight: 400;
+          position: relative;
+
+          &:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            top: 95%;
+            left: 0;
+            border-bottom: 3px solid #e0575d;
+          }
+        }
+
+        .separator {
+          width: 80px;
+          height: 5px;
+          background-color: #e0575d;
+          border-radius: 5px;
+          margin-bottom: 20px;
+        }
+
+        .mb-25px {
+          margin-bottom: 25px;
+        }
+      }
+
+      .image-container {
+        height: 80px;
+        position: relative;
+
+        .illustration {
+          width: 800px;
+          position: absolute;
+          right: 0;
+          bottom: 0;
+        }
+      }
+
+      .mail-btn {
+        margin-top: 55px;
+
+        a {
+          width: 150px;
+          font-family: 'Poppins', sans-serif;
+          font-size: 1.24rem;
+          line-height: 1.55;
+          padding: 7px 12px;
+          border: 2px solid #000;
+          border-radius: 40px;
+          color: #000;
+          cursor: pointer;
+
+          &:focus {
+            outline: none;
+          }
+
+          &:hover {
+            background-color: #000;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    height: auto !important;
+
+    .section-content {
+      padding-bottom: 10px;
+
+      .info {
+        width: 70%;
+        margin-top: 0;
+
+        h2 {
+          font-size: 1.5rem;
+        }
+
+        .text {
+          font-size: 1.1rem !important;
+        }
+
+        .text-2 {
+          margin-top: -8px;
+        }
+
+        .mail-btn {
+          margin-top: 55px;
+
+          a {
+            font-size: 1.1rem;
+          }
+        }
+      }
+
+      .image-container {
+        .illustration {
+          width: 550px;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .section-content {
+      padding-bottom: 20px;
+
+      .info-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .info {
+          width: 60%;
+          text-align: center;
+          margin-top: -10px;
+
+          h2 {
+            font-size: 1.4rem;
+          }
+        }
+      }
+
+      .separator {
+        margin: 0 auto 20px;
+      }
+
+      .image-container {
+        height: 200px;
+
+        .illustration {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
