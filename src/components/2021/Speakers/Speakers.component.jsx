@@ -23,7 +23,7 @@ const Speakers = () => {
       action: "'Checkout-Speakers' Button Click",
       label: "User clicked on 'Checkout All Speakers' button"
     });
-    history.push('/speakers');
+    history.push('/2021/speakers');
   };
 
   return (

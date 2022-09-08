@@ -1,8 +1,8 @@
 import Fade from 'react-reveal/Fade';
 
-// import Ticket from './Ticket.component';
+import Ticket from './Ticket.component';
 
-// import { ticketsDetails } from '../../../data/2022/tickets.data';
+import { ticketsDetails } from '../../../data/2022/tickets.data';
 
 import './Tickets.styles.scss';
 
@@ -17,10 +17,9 @@ const Tickets = () => {
         <div className='section-content'>
           <div className='tickets-container'>
             <Fade delay={50}>
-              {/* {ticketsDetails.map((ticket) => (
+              {ticketsDetails.map((ticket) => (
                 <Ticket key={ticket.key} ticket={ticket} />
-              ))} */}
-              <h1 className='tickets-availableSoon'>Available Soon</h1>
+              ))}
             </Fade>
           </div>
         </div>

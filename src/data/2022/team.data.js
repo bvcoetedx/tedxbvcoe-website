@@ -108,7 +108,7 @@ export const TeamData = {
       linkedInURL: 'https://www.linkedin.com/in/lakshayman',
       instagramURL: 'https://instagram.com/__geekyguy__',
       twitterURL: 'https://twitter.com/lakshayman2000',
-      displayPicSrc: require('../../assets/2022/team/lakshay.jpg').default
+      displayPicSrc: require('../../assets/2022/team/lakshay.PNG').default
     },
     {
       key: '14',

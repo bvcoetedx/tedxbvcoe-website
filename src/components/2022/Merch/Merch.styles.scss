@@ -63,7 +63,7 @@ a {
         .name {
           h3 {
             // width: fit-content;
-            background-color: #3e3e3e;
+            background-color: #fff;
             border-radius: 8px;
             color: lighten(#FC3150, 10%);
             text-transform: uppercase;
@@ -73,15 +73,18 @@ a {
 
         .image {
           width: 300px;
+          height: 383.56px;
           display: flex;
           justify-content: center;
           align-items: center;
           margin-bottom: 10px;
+          border-radius: 8px;
+          border: 3px solid #FC3150;
+          background-color: #f3f3f3;
 
           img {
             width: 100%;
-            border-radius: 8px;
-            border: 2px solid #FC3150;
+            
           }
         }
 
@@ -95,7 +98,7 @@ a {
             font-family: 'Poppins', sans-serif;
             font-weight: 700;
             font-size: 30px;
-            color: #fff;
+            color: #000;
             margin: 0;
             margin-right: 12px;
           }
@@ -147,6 +150,7 @@ a {
         .merch-item {
           .image {
             width: 220px;
+            height: 280px;
           }
         }
       }

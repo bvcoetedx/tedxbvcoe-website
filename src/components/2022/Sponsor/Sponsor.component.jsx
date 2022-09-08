@@ -37,7 +37,7 @@ const Sponsor = ({ match }) => {
         <span>
           <HashLink
             smooth
-            to='/#sponsors'
+            to='/#partners'
             scroll={(el) => scrollWithOffset(el, 50)}
           >
             <FontAwesomeIcon icon={faArrowLeft} className='icon' /> Back

@@ -17,9 +17,9 @@ const Sponsors = () => {
   };
 
   return (
-    <section id='sponsors' className='section section-sponsors2021'>
+    <section id='partners' className='section section-sponsors2021'>
       <Fade bottom>
-        <h1 className='section-heading'>Sponsors</h1>
+        <h1 className='section-heading'>Partners</h1>
       </Fade>
       <div className='section-content'>
         <div className='sponsors-container'>

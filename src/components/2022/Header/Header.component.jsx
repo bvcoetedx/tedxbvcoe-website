@@ -66,16 +66,16 @@ class Header extends React.Component {
       <span className={`${className} hover`} onClick={() => this.scrollToTop()}>
         Home
       </span>
-      <ScrollLink activeClass='active' spy={true} smooth={true} duration={500} to='speakers' className={`${className} hover`}>
+      <Link to='/speakers' className={`${className} hover`}>
         Speakers
-      </ScrollLink>
+      </Link>
       <Link to='/tickets' className={`${className} hover`}>
         Tickets
       </Link>
       <Link to='/merch' className={`${className} hover`}>
         Merch
       </Link>
-      {this.headerOption('sponsors')}
+      {this.headerOption('partners')}
       {this.headerOption('faq')}
       {this.headerOption('team')}
       {this.headerOption('contact')}

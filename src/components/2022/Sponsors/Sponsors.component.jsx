@@ -17,13 +17,16 @@ const Sponsors = () => {
   // };
 
   return (
-    <section id='sponsors' className='section section-sponsors'>
+    <section id='partners' className='section section-sponsors'>
       <Fade bottom>
         <h1 className='section-heading'>Partners</h1>
       </Fade>
-      <div className='section-content'>
-        <div className='sponsors-container'>
-          {/* {sponsors.map((sponsor) => (
+      <Fade>
+        <h3 style={{textAlign: 'center', marginBlockStart: '0'}}>To Be Announced...</h3>
+      </Fade>
+      {/* <div className='section-content'> */}
+        {/* <div className='sponsors-container'>
+          {sponsors.map((sponsor) => (
             <div
               key={sponsor.key}
               className='sponsor-image'
@@ -33,10 +36,9 @@ const Sponsors = () => {
                 <img src={sponsor.image} alt='sponsor' />
               </Fade>
             </div>
-          ))} */}
-          <h1 className='sponsors-soon'>Partnering Soon</h1>
-        </div>
-      </div>
+          ))}
+        </div> */}
+      {/* </div> */}
     </section>
   );
 };

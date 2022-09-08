@@ -13,7 +13,7 @@ class SideDrawer extends React.Component {
     const onClickHandler = (route) => {
       const { history, closeSideDrawer } = this.props;
       closeSideDrawer();
-      history.push(`/${route}`);
+      history.push(`/2021/${route}`);
     };
 
     const handleIconClick = () => {
@@ -49,8 +49,8 @@ class SideDrawer extends React.Component {
           <span className='option' onClick={() => onClickHandler('merch')}>
             Merch
           </span>
-          <span className='option' onClick={() => onClickHandler('sponsors')}>
-            Sponsors
+          <span className='option' onClick={() => onClickHandler('partners')}>
+            Partners
           </span>
           <span className='option' onClick={() => onClickHandler('faq')}>
             FAQ
