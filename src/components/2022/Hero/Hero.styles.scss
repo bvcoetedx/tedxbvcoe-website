@@ -221,7 +221,6 @@
       display: flex;
       justify-content: center;
       padding-bottom: 20px;
-      margin-top: -20px;
 
       img {
         &.logo-desktop {
@@ -285,7 +284,6 @@
   @media only screen and (max-width: 412px) {
     .logo-container {
       height: 50%;
-      margin-top: -40px;
     }
     .content {
       .contentSubContainer {
