@@ -28,11 +28,5 @@ export const FAQData = [
       'Can I cancel my registration for the events I enrolled for? If so, what is the process?',
     answer: 'Reach out to us on bvcoetedx@gmail.com.',
     open: false
-  },
-  {
-    question: 'Will the recorded sessions of TEDxBVCOE be available online?',
-    answer:
-      'Yes, the recorded sessions will be available on the TEDx official YouTube channel.',
-    open: false
   }
 ];

@@ -56,7 +56,7 @@ export const ticketsDetails = [
         <ul>
           <li>Get an exclusive Event Pass for the event</li>
           <li>
-          Get access to the best 8 curated ideas from
+          Get access to the best 9 curated ideas from
           our astounding speakers
           </li>
           <li>
@@ -85,12 +85,11 @@ export const ticketsDetails = [
         <ul>
           <li>All <strong>STANDARD</strong> Access Ticket Benefits</li>
           <li>T-Shirt worth Rs. 599</li>
-          <li>Exclusive merchandise included worth Rs. 999+</li>
           <li>Cap worth Rs 299</li>
           <li>Bottle worth Rs 399</li>
           <li>+ other amazing goodies!</li>
           <li>
-            <em>The overall total merchandise value rounds up to Rs 1700</em>
+            <em>The overall total value rounds up to Rs 1700</em>
           </li>
         </ul>
       </>
