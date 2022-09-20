@@ -14,10 +14,10 @@ const Footer = () => {
   const onClickHandler = () => {
     ReactGA.event({
       category: "'External Link' Clicks",
-      action: "Daksh's website opened",
+      action: "Lakshay's website opened",
       label: 'Website opened from footer credits link'
     });
-    window.open('https://dakshkhetan.now.sh', '_blank');
+    window.open('https://github.com/lakshayman', '_blank');
   };
 
   return (

@@ -45,12 +45,22 @@ a {
     // padding-top: 40px;
     margin-top: 0;
     margin-block-end: 0;
+    padding-bottom: 40px;
   }
 
   .section-content {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     padding-bottom: 40px;
+
+    .sponsors-heading {
+      font-size: 2em;
+      font-weight: 900;
+      text-align: center;
+      margin-block-end: 0;
+    }
 
     .sponsors-container {
       margin-top: 30px;

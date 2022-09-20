@@ -68,14 +68,7 @@ export const TEDxBVCOEInfo = () => {
   return (
     <>
       <p>
-        TEDxBVCOE is an initiative that aims to ignite and magnify the wealth of
-        knowledge of youthful minds. It incites them to unravel their true
-        potential, explore beyond the possible and redefine definitions. At
-        TEDxBVCOE, we believe in exploring new ideas worth spreading because
-        ideas are the beginning points of all fortunes. TEDxBVCOE believes that
-        ‘Certainty in Uncertainty‘ is an assumption for particular work or
-        things and certainty cannot be found in our uncertain world but in your
-        willingness to trust yourself.
+        TEDxBVCOE is an initiative that aims to ignite and magnify the wealth of knowledge of youthful minds. It incites them to unravel their true potential, explore beyond the possible. At TEDxBVCOE, we believe in exploring new ideas worth spreading because ideas are the beginning points of all fortunes. We believe that our theme - ‘Paradoxical Pendulum’ is open for multiple diverse interpretations through physics, metaphors, and romanticism, which allows our speakers to ideate freely and profusely.
       </p>
     </>
   );
