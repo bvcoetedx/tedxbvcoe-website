@@ -8,6 +8,28 @@
   padding: 20px 0;
   position: relative;
 
+  .btn-container {
+    margin: 20px;
+    .btn-link {
+      background-color: #FC3150;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: #fff;
+      padding: 8px 25px;
+      transition: all ease-in-out 0.5s;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #fff;
+        border: 3px solid #FC3150;
+        color: #FC3150;
+        transition: all ease-in-out 0.2s;
+      }
+    }
+  }
+
   a {
     color: #000;
     font-weight: 500;

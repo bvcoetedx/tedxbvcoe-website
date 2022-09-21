@@ -7,6 +7,7 @@ import {
   faFacebook,
   faInstagram
 } from '@fortawesome/free-brands-svg-icons';
+import Fade from 'react-reveal/Fade';
 
 import './Footer.styles.scss';
 
@@ -22,6 +23,36 @@ const Footer = () => {
 
   return (
     <section id='footer' className='footer'>
+      <div style={{display: 'flex', width: '100%', justifyContent: 'center', flexWrap: 'wrap'}}>
+        <Fade bottom delay={350}>
+          <div className='btn-container'>
+            <span className='btn-link' onClick={() => window.open("https://merchant.razorpay.com/policy/KK8FqHsE22B4Uc/terms", '_blank')}>
+              Terms and Conditions
+            </span>
+          </div>
+        </Fade>
+        <Fade bottom delay={350}>
+          <div className='btn-container'>
+            <span className='btn-link' onClick={() => window.open("https://merchant.razorpay.com/policy/KK8FqHsE22B4Uc/refund", '_blank')}>
+              Cancellation and Refund Policy
+            </span>
+          </div>
+        </Fade>
+        <Fade bottom delay={350}>
+          <div className='btn-container'>
+            <span className='btn-link' onClick={() => window.open("https://merchant.razorpay.com/policy/KK8FqHsE22B4Uc/privacy", '_blank')}>
+              Privacy Policy
+            </span>
+          </div>
+        </Fade>
+        <Fade bottom delay={350}>
+          <div className='btn-container'>
+            <span className='btn-link' onClick={() => window.open("https://merchant.razorpay.com/policy/KK8FqHsE22B4Uc/shipping", '_blank')}>
+              Shipping and Delivery Policy
+            </span>
+          </div>
+        </Fade>
+      </div>
       <div className='social-icons'>
         <a
           href='https://twitter.com/tedxbvcoe'

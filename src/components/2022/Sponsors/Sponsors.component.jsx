@@ -39,6 +39,20 @@ const Sponsors = () => {
             </div>
           ))}
         </div>
+        <p className='sponsors-heading'>Event Coverage Partner</p>
+        <div className='sponsors-container'>
+          {sponsors.eventcoverage.map((sponsor) => (
+            <div
+              key={sponsor.key}
+              className='sponsor-image'
+              onClick={() => onClickHandler(sponsor.website)}
+            >
+              <Fade bottom delay={200}>
+                <img src={sponsor.image} alt='sponsor' />
+              </Fade>
+            </div>
+          ))}
+        </div>
         <p className='sponsors-heading'>Associate Partner</p>
         <div className='sponsors-container'>
           {sponsors.associate.map((sponsor) => (
@@ -56,20 +70,6 @@ const Sponsors = () => {
         <p className='sponsors-heading'>Event Partner</p>
         <div className='sponsors-container'>
           {sponsors.event.map((sponsor) => (
-            <div
-              key={sponsor.key}
-              className='sponsor-image'
-              onClick={() => onClickHandler(sponsor.website)}
-            >
-              <Fade bottom delay={200}>
-                <img src={sponsor.image} alt='sponsor' />
-              </Fade>
-            </div>
-          ))}
-        </div>
-        <p className='sponsors-heading'>Event Coverage Partner</p>
-        <div className='sponsors-container'>
-          {sponsors.eventcoverage.map((sponsor) => (
             <div
               key={sponsor.key}
               className='sponsor-image'
