@@ -76,6 +76,14 @@ export const sponsors = {
       website: '',
       image: require('../../assets/2022/partners/jbk.png').default
     },
+    {
+      key: '4',
+      route: 'event-partner-4',
+      name: 'Smart Kid',
+      type: 'Event Partner',
+      website: '',
+      image: require('../../assets/2022/partners/smartkid.jpeg').default
+    },
   ],
   eventcoverage: [
     {
